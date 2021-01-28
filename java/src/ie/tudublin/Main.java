@@ -20,6 +20,15 @@ public class Main
         System.out.println(misty);
         System.out.println(topCat);
 
+        //create new cat "Ginger"
+        Cat ginger = new Cat("Ginger");
+
+        //while loop to check if lives is greater than zero
+        while(ginger.getnumLives()>0)
+        {
+            ginger.kill();
+        }
+
         // What will get printed out??
 
         // 1. topcat, Garfield
@@ -27,4 +36,4 @@ public class Main
 
 
     }
-} 
+}
